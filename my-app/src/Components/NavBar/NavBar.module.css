@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+}
+
+.item {
+    color: whitesmoke;
+}
+.item.active {
+    color: goldenrod;
+}

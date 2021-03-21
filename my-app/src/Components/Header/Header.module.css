@@ -1,0 +1,16 @@
+.header {
+    grid-area: h;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+}
+
+.header img {
+    width: 60px;
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 1px;
+}
