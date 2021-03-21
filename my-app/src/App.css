@@ -1,0 +1,63 @@
+.app-wrapper {
+    margin: auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas: "h h" "n p";
+    grid-template-rows: 60px 1fr;
+    grid-auto-columns: 2fr 10fr;
+    grid-gap: 8px;
+    background-image: url(./background_header.jpg)
+
+}
+
+.header {
+    grid-area: h;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+}
+
+.header img {
+    width: 60px;
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 1px;
+
+}
+
+.nav {
+    grid-area: n;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+}
+
+.profile {
+    grid-area: p;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+}
+
+.profile img {
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 1px;
+}
+
+.ava_inf img {
+    width: 100px;
+    height: 100px;
+
+
+}
