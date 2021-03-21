@@ -1,0 +1,14 @@
+.item {
+    color: darkorange;
+    font-size: 2em;
+
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+}
+
+.like {
+    font-size: 1em;
+}
