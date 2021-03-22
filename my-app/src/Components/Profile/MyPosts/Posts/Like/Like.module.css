@@ -1,0 +1,10 @@
+.like {
+    color: hotpink;
+    font-size: 0.5em;
+    text-align: left;
+    padding-left: 5rem;
+}
+.like img{
+    width: 13px;
+    height: 13px;
+}

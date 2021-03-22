@@ -5,11 +5,20 @@
     border-style: ridge;
     border-color: indigo;
     border-width: 2px;
+    size: 0.3rem;
 }
 
 .item {
+    padding-left: 1rem;
     color: whitesmoke;
+    font-size: 1.5em;
 }
 .item.active {
     color: goldenrod;
+}
+.line{
+    height:20px;
+    width: border-box;
+    border-bottom:2px double rgba(75, 33, 87, 0.5);
+    padding-left:10px
 }

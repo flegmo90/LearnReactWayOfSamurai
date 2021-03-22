@@ -2,16 +2,17 @@ import classes from './MyPosts.module.css';
 import React from "react";
 import Post from './Posts/Post.jsx'
 
-const MyPosts = () => {
+const MyPosts = (props) => {
     return (<div>
         My posts
         <div>
             <div>New posts</div>
-            <textarea>Whats new? </textarea>
-            <button>Add post</button>
+            <textarea className={classes.textarea}>Whats new? </textarea>
+            <button className={classes.button}>Add post</button>
         </div>
         <div className={classes.posts}>
-            <Post/>
+            <Post message="Hi, how are you?" likecounts="15"/>
+            <Post message="It's my first post" likecounts="20"/>
         </div>
     </div>)
 }

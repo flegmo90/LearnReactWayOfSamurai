@@ -1,0 +1,16 @@
+.grid-dialogs {
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+            "s m";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;;
+    border-color: white;
+}
+
+.ava_inf img {
+    width: 100px;
+    height: 100px;
+}
+
+

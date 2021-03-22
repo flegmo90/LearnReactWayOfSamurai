@@ -1,13 +1,24 @@
 .app-wrapper {
     margin: auto;
     display: grid;
-    width: 1200px;
-    grid-template-areas: "h h" "n p";
-    grid-template-rows: 60px 1fr;
-    grid-auto-columns: 2fr 10fr;
-    grid-gap: 8px;
-    background-image: url(./background_header.jpg)
+    width: 100rem;
+    grid-template-areas:
+            "h h"
+            "n p";
+    grid-template-rows: 60px 100rem;
+    grid-auto-columns: 15rem 85rem;
+    grid-gap: 0.5rem;
+    background-image: url(./background_header.jpg);
+    background-size: 100rem;
 
 }
-
+.app-wrapper-content{
+    grid-area: p;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: indigo;
+    border-width: 2px;
+    padding-left: 0.5rem;
+}
 

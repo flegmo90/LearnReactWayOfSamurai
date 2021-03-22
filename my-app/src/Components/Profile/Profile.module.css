@@ -1,13 +1,9 @@
 .profile {
-    grid-area: p;
-    background-color: rgba(75, 0, 130, 0.6);
-    border-radius: 7px;
-    border-style: ridge;
-    border-color: indigo;
-    border-width: 2px;
+
 }
 
 .profile img {
+    row-gap: 0.5rem;
     width: 100%;
     height: 150px;
     border-radius: 7px;
