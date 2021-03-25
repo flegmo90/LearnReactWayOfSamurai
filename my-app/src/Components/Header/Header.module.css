@@ -1,16 +1,19 @@
 .header {
     grid-area: h;
-    background-color: rgba(75, 0, 130, 0.6);
-    border-radius: 7px;
+    background-color: rgba(105, 0, 184, 0.5);
+    border-radius: 0.37rem;
     border-style: ridge;
     border-color: indigo;
-    border-width: 2px;
+    border-width: 0.15rem;
+
+
 }
 
 .header img {
-    width: 54px;
-    border-radius: 7px;
+    width: 3.35rem;
+    border-radius: 0.37rem;
     border-style: ridge;
     border-color: indigo;
-    border-width: 1px;
+    border-width: 0.1rem;
+
 }

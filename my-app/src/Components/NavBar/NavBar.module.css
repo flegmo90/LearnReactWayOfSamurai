@@ -1,24 +1,40 @@
 .nav {
     grid-area: n;
-    background-color: rgba(75, 0, 130, 0.6);
-    border-radius: 7px;
+    background-color: rgba(105, 0, 184, 0.5);
+    border-radius: 0.37rem;
     border-style: ridge;
     border-color: indigo;
-    border-width: 2px;
+    border-width: 0.15rem;
     size: 0.3rem;
+    height: fit-content;
 }
 
 .item {
     padding-left: 1rem;
-    color: whitesmoke;
-    font-size: 1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+
 }
-.item.active {
+
+.item a {
+    color: whitesmoke;
+    text-decoration-line: none;
+    background-color: rgba(75, 0, 130, 0.1);
+    border-radius: 0.37rem;
+    border-style: ridge;
+    border-color: rgba(75, 0, 130, 0.2);
+    border-width: 0.05rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.item a.active {
     color: goldenrod;
 }
-.line{
-    height:20px;
+
+.line {
+    height: 1.5rem;
     width: border-box;
-    border-bottom:2px double rgba(75, 33, 87, 0.5);
-    padding-left:10px
+    border-bottom: 0.15rem double rgba(75, 33, 87, 0.3);
 }

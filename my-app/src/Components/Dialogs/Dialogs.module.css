@@ -1,16 +1,53 @@
-.grid-dialogs {
+.dialogs {
     margin: auto;
     display: grid;
-    grid-template-areas:
-            "s m";
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.5rem;;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 0.5rem;
     border-color: white;
 }
 
-.ava_inf img {
-    width: 100px;
-    height: 100px;
+.dialogsItems {
+    padding: 0.3rem;
 }
 
+.messages {
+    color: #ffe296;
+    font-size: 1.5rem;
+    width: content-box;
+    border-style: ridge;
+    border-color: rgba(165, 255, 216, 0.5);
+    border-width: 0.15rem;
+    background-color: rgba(165, 255, 216, 0.1);
+    border-radius: 0.37rem;
+    padding: 0.3rem;
+}
 
+.message {
+    color: #ffe296;
+    font-size: 1.2rem;
+    width: content-box;
+    padding: 0.3rem;
+}
+
+.dialog {
+    color: #ffe296;
+    font-size: 1.5rem;
+    width: content-box;
+    border-style: ridge;
+    border-width: 0.15rem;
+    border-color: rgba(165, 255, 216, 0.5);
+    background-color: rgba(165, 255, 216, 0.1);
+    border-radius: 0.37rem;
+    padding: 0.3rem;
+}
+
+.dialog a {
+    color: #ffe296;
+    text-decoration-line: none;
+}
+
+.dialogsItems .active {
+    color: white;
+    border-color: rgba(210, 165, 255, 0.5);
+    background-color: rgba(221, 165, 255, 0.1);
+}

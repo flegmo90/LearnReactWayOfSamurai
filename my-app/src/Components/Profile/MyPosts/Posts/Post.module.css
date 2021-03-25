@@ -1,13 +1,20 @@
 .item {
-    color: darkorange;
+    color: #ffe296;
     font-size: 1.5rem;
-    width: 85rem;
-
+    width: content-box;
+    border-style: ridge;
+    border-color: rgba(165, 255, 216, 0.5);
+    border-width: 0.15rem;
+    background-color: rgba(165, 255, 216, 0.1);
+    border-radius: 0.37rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-top: 0.5rem;
 }
 
 .item img {
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
 }
 
 
