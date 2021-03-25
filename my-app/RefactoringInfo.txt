@@ -1,0 +1,58 @@
+let newArray =
+    oldArray.map((el) => {
+        if (isMaleName(el)) {
+            return 1;
+        } else {
+            return 0;
+        }
+    })
+
+map принимает стрелочную ф-ию,
+которая вызывается для каждого элемента массива
+Условие возвращающее одно или другое можно заменить
+на протернарное выражение:
+
+let newArray =
+    oldArray.map((el) => {
+        return isMaleName(el) ? 1 : 0;
+    })
+
+Так как мы только возвращаем что либо то можно еще сократить:
+
+let newArray =
+    oldArray.map((el) => isMaleName(el) ? 1 : 0)
+
+el должен отражать суть обьекта и поскольку приходит
+в ф-ию только 1 аргумент можно убрать скобки:
+
+let newArray = oldArray.map( name => isMaleName(el) ? 1 : 0)
+
+Пример 2:
+
+let newArray =
+    oldArray.map( name => {
+        return "<li>" + name + "</li>";
+    })
+
+let newArray = oldArray.map( name => `<li>"${name}"</li>`)
+
+Пример 3:
+
+let newArray = oldArray.map( el => {
+        return {
+            eng: el,
+            ru: translateIntoRu(el)
+        };
+    })
+
+Убирая в этом примере return браузер ожидает ф-ию в фигурных скобках
+Поэтому надо обернуть еще в круглые скобки
+
+let newArray = oldArray.map( el => ({
+            eng: el,
+            ru: translateIntoRu(el)
+    }) )
+
+Пример 4:
+
+let newArray = oldArray.map( el => (<Message eng = {el.eng} ru = {el.ru} />) )

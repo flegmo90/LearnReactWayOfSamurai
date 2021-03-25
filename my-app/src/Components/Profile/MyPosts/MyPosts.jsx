@@ -3,10 +3,15 @@ import React from "react";
 import Post from './Posts/Post.jsx'
 
 const MyPosts = (props) => {
-    let postData = [
+    let posts = [
         {id: 1, message: 'Hi, how are you?', likesCount: '15'},
         {id: 2, message: 'It\'s my first post', likesCount: '20'},
     ]
+
+    let postsElements = posts.map(
+        post => <Post message={post.message} likesCount={post.likesCount}/>
+    )
+
     return (<div>
         My posts
         <div>
@@ -15,8 +20,7 @@ const MyPosts = (props) => {
             <button className={classes.button}>Add post</button>
         </div>
         <div className={classes.posts}>
-            <Post message={postData[0].message} likesCount={postData[0].likesCount}/>
-            <Post message={postData[1].message} likesCount={postData[1].likesCount}/>
+            {postsElements}
         </div>
     </div>)
 }
