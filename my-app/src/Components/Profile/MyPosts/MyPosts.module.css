@@ -3,7 +3,11 @@
 }
 .textarea{
     border-radius: 0.37rem;
+    resize: none;
+    width: 40rem;
+    height: 7.3rem;
 }
 .button {
     border-radius: 0.37rem;
+    margin-left: 0.5rem;
 }

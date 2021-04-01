@@ -7,7 +7,7 @@
 }
 
 .dialogsItems {
-    padding: 0.3rem;
+    text-decoration-line: none;
 }
 
 .messages {
@@ -15,8 +15,8 @@
     font-size: 1.5rem;
     width: content-box;
     border-style: ridge;
-    border-color: rgba(165, 255, 216, 0.5);
-    border-width: 0.15rem;
+    border-color: rgba(165, 255, 216, 0.29);
+    border-width: 0.1rem;
     background-color: rgba(165, 255, 216, 0.1);
     border-radius: 0.37rem;
     padding: 0.3rem;
@@ -27,27 +27,4 @@
     font-size: 1.2rem;
     width: content-box;
     padding: 0.3rem;
-}
-
-.dialog {
-    color: #ffe296;
-    font-size: 1.5rem;
-    width: content-box;
-    border-style: ridge;
-    border-width: 0.15rem;
-    border-color: rgba(165, 255, 216, 0.5);
-    background-color: rgba(165, 255, 216, 0.1);
-    border-radius: 0.37rem;
-    padding: 0.3rem;
-}
-
-.dialog a {
-    color: #ffe296;
-    text-decoration-line: none;
-}
-
-.dialogsItems .active {
-    color: white;
-    border-color: rgba(210, 165, 255, 0.5);
-    background-color: rgba(221, 165, 255, 0.1);
 }

@@ -1,0 +1,36 @@
+.dialog {
+
+    font-size: 1.5rem;
+    padding-bottom: 0.2rem;
+    /*    border-style: ridge;
+        border-width: 0.15rem;
+        border-color: rgba(165, 255, 216, 0.5);
+        background-color: rgba(165, 255, 216, 0.1);
+        border-radius: 0.37rem;
+        padding: 0.3rem;
+        text-decoration-line: none;*/
+}
+
+.dialog a {
+    display: block;
+    color: #ffe296;
+    width: available;
+    text-decoration-line: none;
+    border-style: ridge;
+    border-width: 0.1rem;
+    border-color: rgba(165, 255, 216, 0.29);
+    background-color: rgba(165, 255, 216, 0.1);
+    border-radius: 0.37rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.dialog a.active {
+    border-color: rgba(75, 0, 130, 0.2);
+    background-color: rgba(59, 0, 101, 0.1);
+    padding: 0.2rem;
+    margin: 0.25rem;
+
+
+}
+
